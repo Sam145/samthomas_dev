@@ -1,0 +1,56 @@
+
+<div id="container">
+	<div id="menu">
+
+		<h1 id="name">Sam Thomas</h1>
+
+		<ul>
+			<li class="link"><%= link_to "About me", "#", onclick: "showAboutMe()" %></li>
+			<li class="link"><%= link_to "My projects", "#", onclick: "showMyProjects()" %></li>
+			<li class="link"><%= link_to "Contact me", "#", onclick: "showContactMe()" %></li>
+		</ul>
+	</div>
+
+	<div id="photo">
+		<%= image_tag "sams.jpg" %>
+
+		
+		<div id="showabout", style="display: none;">
+			<div class="details">
+			</div>
+			<div id="about">
+				<h1 class="theheading">About me</h1>
+				<p><span id="quote">"Match the beauty of the world with the science of Ruby on Rails"</span></p>
+				<p>Web developer based in London</p></ br>
+				<p>After traveling for a gap year (actually 18 months) I returned at the end of last year to  follow my passion for Ruby</p> 
+				<p>Ruby, Ruby on Rails, JavaScript, Git</p>
+
+			</div>
+		</div>
+
+
+		<div id="showprojects", style="display: none;">
+			<div class="details">
+			</div>
+			<div id="projects">
+				<h1 class="theheading">My projects</h1>
+				<ul>
+						<li class="link"><a href="http://conversions-made-easy.herokuapp.com/">Conversions</a></li>
+						<li class="link"><a href="http://samstreebook.herokuapp.com/">Tree Book</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="showcontact", style="display: none;">
+			<div class="details">
+			</div>
+			<div id="contact">
+				<h1 class="theheading">Contact me</h1>
+				<p id="mail"><%= mail_to "sthomas145@yahoo.co.uk", nil, style: "color: white;" %></p>
+			</div>
+		</div>
+	
+
+	</div>
+
+</div>

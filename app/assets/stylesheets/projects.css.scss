@@ -1,0 +1,155 @@
+html { height: 100%; width: 100%; }
+
+body { 
+	width: 1024px; margin: 0 auto;
+	font: 14px Verdana,Lucida,Arial,Helvetica,sans-serif; 
+}
+
+p, td, ul, ol, li, dl, dt,dd {
+	font-family: Verdana,Lucida,Arial,Helvetica,sans-serif; }
+
+
+body {
+	background-color: black;
+}
+
+#container{
+	margin-top: 50px;
+}
+
+#menu {
+	margin-top: 10px;
+}
+
+
+#name {
+	position: relative;
+	top: 14px;
+	display: inline;
+	color: white;
+	font: 3em fantasy;
+}
+
+#menu ul li {
+	display: inline;
+	margin-right: 20px;
+	border-right: solid 1px white;
+	padding-right: 10px;
+}
+
+#menu ul {
+	float: right;
+	margin-top: 40px;
+}
+
+#menu ul li:last-child {
+
+	border-right: solid 1px black;
+}
+
+.link a {
+	color: white;
+}
+
+#photo {
+	position: relative;
+	background-color: black;
+	height: 400px;
+	width: 1024px;
+	margin: auto 0;
+}
+
+.theheading {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#showabout {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+
+#showcontact {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+
+#showprojects {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+}
+
+.details {
+	position: relative;
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	opacity: 0.5;
+}
+
+
+#about {
+	position: absolute;
+	top: 0px;
+	color: white;
+	height: 300px;
+	width: 300px;
+}
+
+#about {
+	width: 280px;
+	margin-left: 10px;
+}
+
+#about p {
+	font-size: 15px;
+}
+
+#quote {
+	font-style: italic;
+}
+
+#contact {
+	position: absolute;
+	top: 0px;
+	color: white;
+	height: 300px;
+	width: 300px;
+}
+
+#mail {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#mail:hover {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 1.2em;
+}
+
+#projects {
+	position: absolute;
+	top: 0px;
+	color: white;
+	height: 300px;
+	width: 300px;
+}
+
+#projects ul {
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+#projects ul li {
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+
+#projects ul li:hover {
+	margin-left: 10px;
+}
